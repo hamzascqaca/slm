@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalamViz studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="images/final.png" alt="SalamViz Logo" class="logo-img"></a>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#Animation">Animation</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="hero">
+            <!-- Video Background -->
+            <video autoplay muted loop class="video-background">
+                <source src="images/V One.m4v.mp4" type="video/mp4">
+            </video>
+
+            <!-- Animated Text Center -->
+            <div class="hero-content">
+                <div class="animated-heading">
+                    <span id="changing-text"></span>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="work" class="section dark-section">
+            <div class="section-header">
+                <h2>PROJECTS</h2>
+            </div>
+
+            <div class="grid">
+                <!-- Portfolio Items -->
+                <div class="portfolio-item big" data-id="1">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+                        alt="Modern Villa" />
+                    <div class="overlay">
+                        <h3>Modern Villa</h3>
+                        <p>Architecture / 2023</p>
+                        <div class="social-stats">
+                            <div class="social-stat">
+                                <i class="fas fa-eye"></i>
+                                <span class="view-count">0</span>
+                            </div>
+                            <button class="like-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="like-count">0</span>
+                            </button>
+                            <button class="comment-btn">
+                                <i class="far fa-comment"></i>
+                                <span class="comment-count">0</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item tall" data-id="2">
+                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=600&q=80"
+                        alt="Urban Loft" />
+                    <div class="overlay">
+                        <h3>Urban Loft</h3>
+                        <p>Interior / 2023</p>
+                        <div class="social-stats">
+                            <div class="social-stat">
+                                <i class="fas fa-eye"></i>
+                                <span class="view-count">0</span>
+                            </div>
+                            <button class="like-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="like-count">0</span>
+                            </button>
+                            <button class="comment-btn">
+                                <i class="far fa-comment"></i>
+                                <span class="comment-count">0</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item wide" data-id="3">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
+                        alt="Luxury Penthouse" />
+                    <div class="overlay">
+                        <h3>Luxury Penthouse</h3>
+                        <p>Interior / 2022</p>
+                        <div class="social-stats">
+                            <div class="social-stat">
+                                <i class="fas fa-eye"></i>
+                                <span class="view-count">0</span>
+                            </div>
+                            <button class="like-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="like-count">0</span>
+                            </button>
+                            <button class="comment-btn">
+                                <i class="far fa-comment"></i>
+                                <span class="comment-count">0</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-id="4">
+                    <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=600&q=80"
+                        alt="Mountain Retreat" />
+                    <div class="overlay">
+                        <h3>Mountain Retreat</h3>
+                        <p>Architecture / 2021</p>
+                        <div class="social-stats">
+                            <div class="social-stat">
+                                <i class="fas fa-eye"></i>
+                                <span class="view-count">0</span>
+                            </div>
+                            <button class="like-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="like-count">0</span>
+                            </button>
+                            <button class="comment-btn">
+                                <i class="far fa-comment"></i>
+                                <span class="comment-count">0</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-id="5">
+                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80"
+                        alt="Modern Apartment" />
+                    <div class="overlay">
+                        <h3>Modern Apartment</h3>
+                        <p>Interior / 2023</p>
+                        <div class="social-stats">
+                            <div class="social-stat">
+                                <i class="fas fa-eye"></i>
+                                <span class="view-count">0</span>
+                            </div>
+                            <button class="like-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="like-count">0</span>
+                            </button>
+                            <button class="comment-btn">
+                                <i class="far fa-comment"></i>
+                                <span class="comment-count">0</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item tall" data-id="6">
+                    <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=600&q=80"
+                        alt="Cozy Living Room" />
+                    <div class="overlay">
+                        <h3>Cozy Living Room</h3>
+                        <p>Interior / 2022</p>
+                        <div class="social-stats">
+                            <div class="social-stat">
+                                <i class="fas fa-eye"></i>
+                                <span class="view-count">0</span>
+                            </div>
+                            <button class="like-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="like-count">0</span>
+                            </button>
+                            <button class="comment-btn">
+                                <i class="far fa-comment"></i>
+                                <span class="comment-count">0</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Images -->
+                <div class="portfolio-item" data-id="7">
+                    <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=600&q=80"
+                        alt="Minimalist Apartment" />
+                    <div class="overlay">
+                        <h3>Minimalist Apartment</h3>
+                        <p>Interior / 2023</p>
+                        <div class="social-stats">
+                            <div class="social-stat">
+                                <i class="fas fa-eye"></i>
+                                <span class="view-count">0</span>
+                            </div>
+                            <button class="like-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="like-count">0</span>
+                            </button>
+                            <button class="comment-btn">
+                                <i class="far fa-comment"></i>
+                                <span class="comment-count">0</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item wide" data-id="8">
+                    <img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1200&q=80"
+                        alt="Luxury Kitchen" />
+                    <div class="overlay">
+                        <h3>Luxury Kitchen</h3>
+                        <p>Interior / 2023</p>
+                        <div class="social-stats">
+                            <div class="social-stat">
+                                <i class="fas fa-eye"></i>
+                                <span class="view-count">0</span>
+                            </div>
+                            <button class="like-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="like-count">0</span>
+                            </button>
+                            <button class="comment-btn">
+                                <i class="far fa-comment"></i>
+                                <span class="comment-count">0</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-id="9">
+                    <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=600&q=80"
+                        alt="Modern Bathroom" />
+                    <div class="overlay">
+                        <h3>Modern Bathroom</h3>
+                        <p>Interior / 2023</p>
+                        <div class="social-stats">
+                            <div class="social-stat">
+                                <i class="fas fa-eye"></i>
+                                <span class="view-count">0</span>
+                            </div>
+                            <button class="like-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="like-count">0</span>
+                            </button>
+                            <button class="comment-btn">
+                                <i class="far fa-comment"></i>
+                                <span class="comment-count">0</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox -->
+        <div id="lightbox">
+            <span class="close">&times;</span>
+            <button class="lightbox-nav" id="prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div id="lightbox-content">
+                <img id="lightbox-img" src="" alt="" />
+                <div class="lightbox-caption">
+                    <h3 id="lightbox-title"></h3>
+                    <p id="lightbox-desc"></p>
+                    <div class="lightbox-social">
+                        <div class="social-stat">
+                            <i class="fas fa-eye"></i>
+                            <span id="lightbox-views">0</span>
+                        </div>
+                        <button class="like-btn" id="lightbox-like-btn">
+                            <i class="far fa-heart"></i>
+                            <span id="lightbox-likes">0</span>
+                        </button>
+                        <button class="comment-btn" id="lightbox-comment-btn">
+                            <i class="far fa-comment"></i>
+                            <span id="lightbox-comments-count">0</span>
+                        </button>
+                    </div>
+                    <div class="lightbox-comments" id="lightbox-comments">
+                        <!-- Comments will be loaded here -->
+                    </div>
+                    <form class="comment-form" id="comment-form">
+                        <input type="text" class="comment-input" placeholder="Add a comment..." required>
+                        <button type="submit" class="comment-submit">Post</button>
+                    </form>
+                </div>
+            </div>
+            <button class="lightbox-nav" id="next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <button class="fullscreen-btn" id="fullscreen-btn">
+                <i class="fas fa-expand"></i>
+            </button>
+            <div class="loader"></div>
+        </div>
+
+        <section id="Animation" class="section dark-section">
+            <div class="section-header">
+                <h2>CGI, ANIMATION</h2>
+            </div>
+
+            <div class="grid salamviz-video-gallery">
+                <!-- Video 1 -->
+                <div class="salamviz-video-card animate-on-scroll"
+                    data-video="https://www.youtube.com/embed/xHlupnHU-5E" data-title="Project 1">
+                    <img src="https://img.youtube.com/vi/xHlupnHU-5E/hqdefault.jpg" alt="Project 1">
+                    <div class="salamviz-overlay"><span>Project 1</span></div>
+                    <div class="salamviz-play-icon">▶</div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="salamviz-video-card animate-on-scroll"
+                    data-video="https://www.youtube.com/embed/6_H1oXWYkDs" data-title="Project 2">
+                    <img src="https://img.youtube.com/vi/6_H1oXWYkDs/hqdefault.jpg" alt="Project 2">
+                    <div class="salamviz-overlay"><span>Project 2</span></div>
+                    <div class="salamviz-play-icon">▶</div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="salamviz-video-card animate-on-scroll"
+                    data-video="https://www.youtube.com/embed/HoSU64aGvUA" data-title="Project 3">
+                    <img src="https://img.youtube.com/vi/HoSU64aGvUA/hqdefault.jpg" alt="Project 3">
+                    <div class="salamviz-overlay"><span>Project 3</span></div>
+                    <div class="salamviz-play-icon">▶</div>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="salamviz-video-card animate-on-scroll"
+                    data-video="https://www.youtube.com/embed/OGZ5N1X9_l0" data-title="Project 4">
+                    <img src="https://img.youtube.com/vi/OGZ5N1X9_l0/hqdefault.jpg" alt="Project 4">
+                    <div class="salamviz-overlay"><span>Project 4</span></div>
+                    <div class="salamviz-play-icon">▶</div>
+                </div>
+
+                <!-- Video 5 -->
+                <div class="salamviz-video-card animate-on-scroll"
+                    data-video="https://www.youtube.com/embed/RAHFtzZb_ao" data-title="Project 5">
+                    <img src="https://img.youtube.com/vi/RAHFtzZb_ao/hqdefault.jpg" alt="Project 5">
+                    <div class="salamviz-overlay"><span>Project 5</span></div>
+                    <div class="salamviz-play-icon">▶</div>
+                </div>
+
+                <!-- Video 6 -->
+                <div class="salamviz-video-card animate-on-scroll"
+                    data-video="https://www.youtube.com/embed/LGc0Kg6Vdes" data-title="Project 6">
+                    <img src="https://img.youtube.com/vi/LGc0Kg6Vdes/hqdefault.jpg" alt="Project 6">
+                    <div class="salamviz-overlay"><span>Project 6</span></div>
+                    <div class="salamviz-play-icon">▶</div>
+                </div>
+            </div>
+
+            <!-- Lightbox HTML (added at the end of the section) -->
+            <div id="salamviz-lightbox" class="salamviz-lightbox">
+                <span class="salamviz-close-btn">&times;</span>
+                <iframe id="salamviz-video-frame" allowfullscreen></iframe>
+            </div>
+        </section>
+
+
+        <section id="team" class="section">
+            <div class="row">
+
+                <div class="col-lg-7 col-md-6 col-sm-12">
+                    <h3 class="hea my-5"> SalamViz – A Vision by Faisal Salam</h3>
+                    <p class="pra">
+                        I'm Faisal Salam, the founder and CEO of SalamViz. My journey in the CG industry began back in
+                        2015. Over the years, I’ve worn many hats from animator to technical artist, VFX compositor,
+                        and architectural visualizer. Each role taught me something unique, and all those experiences
+                        laid the foundation for what would become SalamViz.
+
+                        I started this studio with just three passionate artists and a clear focus: architectural
+                        visualization. What began as a small team has now grown into a close-knit family of eight
+                        incredibly talented 3D artists, each bringing their own flair and expertise to the table.
+
+                        At SalamViz, we believe in a fully collaborative approach. Every project is a blend of
+                        creativity, technical precision, and bold imagination. Our strength lies in the diverse skills
+                        of our team we learn from each other, challenge each other, and grow together.
+
+                    </p>
+                </div>
+
+                <div class="col-lg-1 md-none d-inline-block"></div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 imgcol">
+                    <img src="images/faisal .jpg" class="w-100 d-inline-block im" alt="faisal salam">
+                </div>
+            </div>
+
+            <div class="section-header">
+                <h2>MEET OUR TEAM</h2>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-member-img">
+                        <img src="" alt="Sajja ali">
+                    </div>
+                    <div class="team-member-info">
+                        <h3></h3>
+                        <h3>SAJJAD ALI</h3>
+                        <p> CGI ARTIST (Team Lead)</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-member-img">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                            alt="Sajjad Ali">
+                    </div>
+                    <div class="team-member-info">
+                        <h3>ABDUL HASEEB</h3>
+                        <p>CGI SENIOR ANIMATOR</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-member-img">
+                        <img src=""
+                            alt="KHIZER HAYAT">
+                    </div>
+                    <div class="team-member-info">
+                        <h3>KHIZER HAYAT</h3>
+                        <p>CGI ASSOSIATE ANIMATOR</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-member-img">
+                        <img src=""
+                            alt="MUDASIR GHORI">
+                    </div>
+                    <div class="team-member-info">
+                        <h3></h3>
+                        <h3>MUDASIR GHORI</h3>
+                        <p>3D VISUALIZER</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-member-img">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                            alt="ZAKIR BHITTO">
+                    </div>
+                    <div class="team-member-info">
+                        <h3>ZAKIR BHITTO</h3>
+                        <p>3D VISUALIZER</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-member-img">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                            alt="ARMISH KHOKAR">
+                    </div>
+                    <div class="team-member-info">
+                        <h3>ARMISH KHOKAR</h3>
+                        <p>ARCHITECT</p>
+                    </div>
+                </div>
+
+
+                <div class="team-member">
+                    <div class="team-member-img">
+                        <img src=""
+                            alt="FIZA HALEPOTO">
+                    </div>
+                    <div class="team-member-info">
+                        <h3>FIZA HALEPOTO</h3>
+                        <p>ARCHITECT</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="team-member-img">
+                        <img src=""
+                            alt="MOHAMMAD BILAL">
+                    </div>
+                    <div class="team-member-info">
+                        <h3>MOHAMMAD BILAL</h3>
+                        <p>CHIEF EXECUTIVE OF MAKETING</p>
+                    </div>
+                </div>
+
+
+                <div class="team-member">
+                    <div class="team-member-img">
+                        <img src=""
+                            alt="HAMZA ALI">
+                    </div>
+                    <div class="team-member-info">
+                        <h3>HAMZA ALI</h3>
+                        <p>WEB DEVELOPER</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>About Us</h3>
+                <p>SalamViz is an award-winning design studio specializing in architecture, interior design, and digital
+                    experiences. We create spaces that inspire and digital solutions that engage.</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#work">Our Work</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Architectural Design</a></li>
+                    <li><a href="#">Interior Design</a></li>
+                    <li><a href="#">3D Visualization</a></li>
+                    <li><a href="#">Digital Experiences</a></li>
+                    <li><a href="#">Consulting</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>Office # 316A, DAWOOD MART,<br> Autobhan Road,<br>Hyderabad, Sindh Pakistan</p>
+                <p>Email: salamvizofficial@gmail.com<br>Phone: +92 334-2451603</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <a href="#"><img src="images/final.png" alt="site logo"></a>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/Salam.Viz" target="_blank"><ion-icon
+                        name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/salamvizstudio/" target="_blank"><ion-icon
+                        name="logo-instagram"></ion-icon></a>
+                <a href="https://pk.linkedin.com/in/salamviz" target="_blank"><ion-icon
+                        name="logo-linkedin"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-behance"></ion-icon></a>
+            </div>
+            <p class="copyright">© 2025 Salamviz. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
